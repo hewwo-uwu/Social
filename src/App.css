@@ -1,33 +1,122 @@
-.App {
-  text-align: center;
+*, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.hewwo {
+  border-radius: 0 !important;
+  width: 100%;
+  height: 10rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login {
+  align-self: center;
+  background-color: #151515;
+  width: 22rem;
+  height: 26rem;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 5px 5px 9px #1a1a1a;
 }
 
-.App-link {
-  color: #61dafb;
+.flex {
+  display:flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+/*  this is for the login inputs */
+.logins {
+  max-height: 30%;
+  width: 80%;
+  align-self: center;
+  margin: 10px;
+}
+
+.justify-content-around {
+      justify-content: space-around;
+}
+
+#logo {
+max-height: 20%;
+display: flex;
+flex-direction: column;
+}
+
+#loginLogo {
+  margin-top: 20px;
+}
+
+input,
+textarea,
+select {
+  padding: 0;
+  margin: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+::-moz-selection {
+  background: #fff;
+  color: #000;
+  text-shadow: none;
+}
+::selection {
+  background: #fff;
+  color: #000;
+  text-shadow: none;
+}
+::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.5);
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: rgba(255,255,255,0.5);
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: rgba(255,255,255,0.5);
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: rgba(255,255,255,0.5);
+  opacity: 1;
+}
+
+.sign__input {
+  background-color: #2b2b31;
+  border: none;
+  height: 50px;
+  position: relative;
+  color: #fff;
+  font-size: 15px;
+  width: 250px;
+  color: #fff;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  padding: 0 20px;
+  letter-spacing: 0.2px;
+  font-family: 'Open Sans', sans-serif;
 }
